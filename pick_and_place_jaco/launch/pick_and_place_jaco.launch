@@ -1,0 +1,10 @@
+<launch>
+    <!-- load jaco robot moveit package -->
+    <include file="$(find j2n6s300_moveit_config)/launch/demo.launch">
+    </include>
+
+    <!-- run pick and place node -->
+    <node name="pick_and_place_jaco" pkg="pick_and_place_jaco" type="pick_and_place_jaco_node">
+    </node>
+
+</launch>

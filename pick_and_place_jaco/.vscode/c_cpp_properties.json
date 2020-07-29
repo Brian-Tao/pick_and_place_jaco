@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/brian/intern_ws/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/brian/intern_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/include/**",
+                "/home/brian/intern_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2s6s300_ikfast/include/**",
+                "/home/brian/intern_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2s7s300_ikfast/include/**",
+                "/home/brian/intern_ws/src/kinova-ros/kinova_moveit/kinova_arm_moveit_demo/include/**",
+                "/home/brian/intern_ws/src/kinova-ros/kinova_driver/include/**",
+                "/home/brian/intern_ws/src/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/m1n6s300_ikfast/include/**",
+                "/home/brian/intern_ws/src/pick_and_place_jaco/include/**",
+                "/usr/include/**",
+                "/home/brian/intern_ws/devel/.private/gazebo_ros_link_attacher/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

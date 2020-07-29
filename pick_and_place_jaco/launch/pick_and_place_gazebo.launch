@@ -1,0 +1,10 @@
+<launch>
+    <!-- launch gazebo -->
+    <include file="$(find kinova_gazebo)/launch/robot_launch.launch">
+    </include>
+
+    <include file="$(find j2n6s300_moveit_config)/launch/j2n6s300_gazebo_demo.launch">
+    </include>
+
+
+</launch>
